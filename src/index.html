@@ -5,9 +5,111 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MP1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-…(hash)…" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+
+        <header>
+            <div id = "navbar">
+                <a href = "#slideshow-section">Slides</a>
+                <a href = "#about">Info</a>
+                <a href = "#links">Links</a>
+            </div>
+
+        </header>
+
+        <section id="hero">
+            
+            <img src="assets/bg.jpg" alt="oda" id="hero-video">
+
+
+                
+            <div id="modal">
+                <div id="modal-container">
+                    <button id = "x"> x </button>
+                    <video id="vid" controls autoplay muted playsinline loop>
+                        <source src="assets/hero.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+            </div>
+
+
+
+          </section>
+          
+
+
+        <section id="slideshow-section">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <img src="assets/image1.jpg" class="carousel-image">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="assets/image2.jpg" class="carousel-image">
+                </div>
+
+                <div class="mySlides fade">
+                <img src="assets/image3.jpg" class="carousel-image">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+        </section>
+        
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+        <section id = "about">
+            <div class = "person">
+                <h2>Luffy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum voluptate corrupti magnam assumenda est nemo qui fugit ducimus sunt? Iure, veritatis veniam praesentium quis voluptatem at voluptate tempore facilis?</p>
+            </div>
+            <div class = "person">
+                <h2>Zoro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum voluptate corrupti magnam assumenda est nemo qui fugit ducimus sunt? Iure, veritatis veniam praesentium quis voluptatem at voluptate tempore facilis?</p>
+            </div>
+            <div class = "person">
+                <h2>Jinbei</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum voluptate corrupti magnam assumenda est nemo qui fugit ducimus sunt? Iure, veritatis veniam praesentium quis voluptatem at voluptate tempore facilis?</p>
+            </div>
+        </section>
+
+
+
+
+       
+
+
     </body>
+    <section id="links">
+        <footer>
+            <a href="https://x.com/?lang=en" target="_blank"> <i class="fa-brands fa-twitter fa-2x"></i>  </a>
+            <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram fa-2x"></i>  </a>
+            <a href="https://github.com/" target="_blank"> <i class="fa-brands fa-github fa-2x"></i>  </a>
+    
+        </footer>
+    </section>
+    
 </html>
